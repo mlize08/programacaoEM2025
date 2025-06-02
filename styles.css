@@ -1,0 +1,12 @@
+body{
+    background-color: #305050;
+    color: white;
+}
+
+.texto-ingles{
+    font-style: italic;
+}
+
+#nome-usuario{
+    font-weight: bold;
+}
