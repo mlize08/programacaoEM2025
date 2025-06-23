@@ -4,3 +4,10 @@ function inserirNome(){
    elemento.textContent = nomeUsuario;
 }
 inserirNome();
+
+function mudarCor(){
+   const elemento=document.getElementById("nome-usuario");
+   elemento.style.color="red";
+}
+
+mudarCor();
