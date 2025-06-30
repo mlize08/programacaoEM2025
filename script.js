@@ -21,6 +21,9 @@ console.log(linguagens[2]);
 
 //mostrar no console no navegador
 
-const item = document.querySelector("#lista");
-item.textContent = linguagens[1];
+//const item = document.querySelector("#lista");
+//item.textContent = linguagens[1];
 
+let alunos=["Ana", "Pedro", "Clara", "Maria", "João"];
+const item2 = document.querySelector("#lista");
+item2.textContent = alunos[0];
