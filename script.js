@@ -27,3 +27,17 @@ console.log(linguagens[2]);
 let alunos=["Ana", "Pedro", "Clara", "Maria", "João"];
 const item2 = document.querySelector("#lista");
 item2.textContent = alunos[0];
+
+//objetos
+
+let aluno1 = {
+  nome: "Gabriel",
+  idade: 13,
+  anoLetivo: "2ºsérie",
+  materiasFavoritas: ["Geografia","Programação","Arte"]
+}
+console.log(aluno1.nome) // “Gabriel”
+console.log(aluno1.idade) // 13
+console.log(aluno1.materiaFavorita)
+// "Geografia","Programação","Arte"
+console.log(aluno1.materiaFavorita[1])
