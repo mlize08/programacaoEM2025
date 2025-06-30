@@ -36,8 +36,8 @@ let aluno1 = {
   anoLetivo: "2ºsérie",
   materiasFavoritas: ["Geografia","Programação","Arte"]
 }
-console.log(aluno1.nome) // “Gabriel”
-console.log(aluno1.idade) // 13
-console.log(aluno1.materiaFavorita)
+console.log(aluno1.nome); // “Gabriel”
+console.log(aluno1.idade); // 13
+console.log(aluno1.materiasFavorita);
 // "Geografia","Programação","Arte"
-console.log(aluno1.materiaFavorita[1])
+console.log(aluno1.materiasFavorita[1]);
